@@ -15,4 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Activerecord::Concurrent::Index::VERSION
   gem.add_dependency 'activerecord'
+  gem.add_development_dependency 'rake'
 end
